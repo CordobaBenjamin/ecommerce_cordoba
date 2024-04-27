@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const LayoutHeader = () => {
   return (
@@ -9,9 +10,9 @@ const LayoutHeader = () => {
           {/* <!-- navbar --> */}
           <nav className="flex justify-between bg-accent text-white w-screen">
             <div className="px-5 xl:px-12 py-6 flex w-full items-center">
-              <a
+              <Link
                 className="text-3xl font-bold font-heading text-secondary"
-                href="#"
+                href="./home"
               >
                 <div className="flex flex-row">
                   <div className="size-10 relative mr-2">
@@ -26,7 +27,7 @@ const LayoutHeader = () => {
                     <span className="text-base"> Cordoba Woods </span>
                   </div>
                 </div>
-              </a>
+              </Link>
               {/* <!-- Nav Links --> */}
               <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
                 <li>

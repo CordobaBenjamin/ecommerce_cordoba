@@ -11,13 +11,12 @@ const LayoutFooter = () => {
 				<div className="text-2xl px-4">
 
 
-					<h3 className="font-bold text-gray-900 dark:text-gray-100">Ojas
-						Blog <span>.</span>
+					<h3 className="font-bold text-gray-900 dark:text-gray-100"> Cordoba Woods<span>.</span>
 					</h3>
 					<p className="mt-2 mb-4 text-gray-600 dark:text-gray-400 text-sm">
-						Language is humanitys greatest open-source project.
+						La que necesitas, donde lo necesites.
 					</p>
-					<div className="flex-row my-4">
+					<div className="flex flex-row my-4">
 
 						<a className=" h-8 w-8 rounded-full outline-none focus:outline-none"
 							href='mailto:ahampriyanshu@gmail.com?subject = Greeting&body = Hi there' type="button">
@@ -114,15 +113,14 @@ const LayoutFooter = () => {
 			</div>
 			<div className="flex w-full md:w-5/12 px-4">
 				<div className="text-2xl">
-					<p className="font-bold text-gray-900 dark:text-gray-100">Subsrcibe</p>
-					<p className="mt-2 mb-4 text-gray-600 dark:text-gray-400 text-sm">Get the latest posts delivered right
-						to your inbox</p>
+					<p className="font-bold text-gray-900 dark:text-gray-100">Suscribirse</p>
+					<p className="mt-2 mb-4 text-gray-600 dark:text-gray-400 text-sm">Obtenga las ultimas novedades de nuestro sitio.</p>
 					<div className="my-4">
 						<form id="footerForm" action="/subscribe/" method="POST" className="form-horizontal">
 							<input type="hidden" name="csrfmiddlewaretoken" value="wbn5efvaAQVWPnswLO5RNYv2pUyImMYDigHDj3NtW1PhE8g7UUv6rgYqQWq7QKyJ"/>
 							<input type="email" name="email" size={14} className="p-2 border border-grey-light rounded text-black placeholder-gray-400 text-sm h-auto
-                                        focus:bg-white focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent" placeholder="Enter Email Address" required={true}/>
-							<input type="submit" id="emailBtn" value="Subscribe" className="bg-teal-500 text-white active:bg-teal-400
+                                        focus:bg-white focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent" placeholder="Direccion de email" required={true}/>
+							<input type="submit" id="emailBtn" value="Suscribirse" className="bg-teal-500 text-white active:bg-teal-400
                                             rounded shadow hover:shadow-lg outline-none focus:outline-none h-auto text-xs p-3"/></form>
 					</div>
 				</div>
@@ -130,27 +128,27 @@ const LayoutFooter = () => {
 			<div className="flex w-full md:w-2/12 px-4">
 				<div className="flex flex-wrap items-top">
 					<div className="w-full  ml-auto">
-						<p className="font-bold text-2xl text-gray-900 dark:text-gray-100">Popular Tags</p>
+						<p className="font-bold text-2xl text-gray-900 dark:text-gray-100">Etiquetas Populares</p>
 						<ul className="list-unstyled mt-2 mb-4">
 
 							<li>
 								<a className="text-gray-600 dark:text-gray-400 hover:underline py-1 text-sm"
-									href='#'>roadmap</a>
+									href='/contactUs'>Contactanos</a>
 							</li>
 
 							<li>
 								<a className="text-gray-600 dark:text-gray-400 hover:underline py-1 text-sm"
-									href='#'>features</a>
+									href='/info'>Quienes Somos</a>
 							</li>
 
 							<li>
 								<a className="text-gray-600 dark:text-gray-400 hover:underline py-1 text-sm"
-									href='#'>defi</a>
+									href='/info'>Donde Encontrarnos</a>
 							</li>
 
 							<li>
 								<a className="text-gray-600 dark:text-gray-400 hover:underline py-1 text-sm"
-									href='#'>blockchain</a>
+									href='/info'>Ayuda</a>
 							</li>
 
 						</ul>
@@ -163,9 +161,8 @@ const LayoutFooter = () => {
 			<div className="w-full md:w-4/12 px-4 mx-auto text-center">
 				<div className="text-sm text-gray-600 dark:text-gray-400 py-1">
 					&copy;
-					<span id="year">2022</span>
-					<a href="https://github.com/ahampriyanshu" className="hover:underline hover:text-gray-900">Priyanshu
-						Tiwari</a>.
+					<span id="year">2024-</span>
+					<a href="https://github.com/CordobaBenjamin" className="hover:underline hover:text-gray-900">Benjamin Cordoba</a>.
 				</div>
 			</div>
 		</div>
